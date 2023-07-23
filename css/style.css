@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comic+Neue:ital@1&family=Inconsolata:wght@300&family=Libre+Bodoni:ital@1&family=Lobster&family=Lumanosimo&family=Poppins:wght@300&family=Recursive&family=Roboto:ital,wght@1,300&display=swap');
+
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+  .card-container {
+    background-image: url(images/yc2.jpg);
+    height:100vh;
+    background-position: center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+    .logo {
+    display: flex;
+    background-image: url(images/new\ logo.png);
+    height: 300px;
+    width: 300px;
+    background-position: center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 400px;
+   }
+
+    div span {
+    display: flex;
+    align-content: end;
+    margin-left: 100px;
+    color:rgb(241, 225, 204);
+    font-size: medium;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family:  'Comic Neue', cursive;
+    text-shadow: 5px 5px 5px black;
+    }
+
+   .card-title {
+    display: flex;
+    font-weight: 900;
+    font-size: 80px;
+    color: rgb(241, 225, 204);
+    font-family: 'Libre Bodoni', serif;
+    color:rgb(241, 225, 204);
+    text-shadow: 5px 5px 5px black;
+   }
+
+  .button {
+   display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    margin-left:100px ;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color:rgb(240,96,34);
+    color: white;
+    font-size: 18px;
+    padding: 10px;  
+  }
+ .button:hover {
+     background-color: rgb(222,184,135);    
+ 
+  }
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+  body { 
+   background-color: white;
+  }
+
+  .nav {
+    display: flex;
+    height: 80px;
+    background-color: burlywood;
+    justify-content:space-between;
+    align-items:left;
+    position:unset;
+    
+  }
+
+  .nav-brand {
+    background-image: url(images/3.png);
+    height: 100px;
+    width: 120px;
+    background-position: center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+  }
+
+ .nav-list {
+   display: flex;
+    list-style-type: none;
+    margin: 0 100px 0 0;
+
+  }
+
+ .nav-item {
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 0;
+    color: rgb(93, 53, 5)
+   }
+
+ .nav-item a {
+     text-decoration: none;
+     color:rgb(76, 44, 2);
+     font-size: x-large;
+     font-weight: 500;
+   }
+  
+ .container1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+ }
+ .container1-card-title {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Libre Bodoni', serif;
+  color: rgb(240,96,34);
+  margin:0;
+  text-shadow: none;
+  
+ }
+
+ .container1-card {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 600px;
+    padding:20px;
+ }
+
+ .container1-card p{
+    text-align:center;
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive ;
+    text-align: justify;
+   
+  }
+
+ .main-container2 {
+    display: flex;
+    justify-content:space-evenly;
+  
+  }
+
+ .container2 {
+    margin-top: 150px;
+    box-shadow: 15px 20px rgb(127, 125, 125);
+  
+  }
+
+ .card-title1 {
+   font-family: 'Libre Bodoni', serif;
+   font-weight: 900;
+   color:rgb(240,96,34);
+  }
+
+ .card-text1 {
+   font-family: 'Comic Neue', cursive ;
+ }
+
+ .card-body {
+  background-color: rgb(222, 184, 135);
+ }
+
+ .btn {
+   background-color: rgb(240,96,34);
+   border-radius: 20px;
+ }
+
+
+
+ .Testimonial {
+   width: 100%;
+   height: 900px;
+ }
+
+ .testimonial-a {
+   width:1500px;
+   height:700px;
+   padding: 10px;
+   border-radius: 30px;
+   background-image: url(images/image6.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+  .Testimonial {
+   display: flex;
+   flex-direction:column;
+   justify-content:space-evenly;
+   padding:100px 150px 100px 240px;;
+   margin: 100px 0 0 0 ;
+  }
+
+ .testimonial-title {
+   font-size:50px ;
+   font-family:'Libre Bodoni', serif;
+   font-weight: 900;
+   color:rgb(240,96,34);
+   text-shadow: none;
+   margin: 0;
+  } 
+
+ .testimonial-name {
+   font-size:20px;
+   font-weight: 800;
+   margin:0;
+   font-family: 'Comic Neue', cursive;
+   text-shadow: none;
+   color:rgb(240,96,34); 
+  }
+
+ .testimonial-text {
+   font-family: 'Comic Neue', cursive;
+   font-weight: 600;
+   font-size: 20px;
+  }
+
+ .footer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100%;
+   height: 200px;
+   background-color: rgb(222, 184, 135);
+ }
+
+
+ .footer-name{
+   font-size:20px ;
+   font-family:'Comic Neue', cursive;
+   font-weight: 900;
+   color:black;
+   text-shadow: none;
+   margin:0;
+   padding: 20px 0 0 0;
+  }
+
+ .fa-brands {
+
+   flex-direction: row;
+   justify-content: space-evenly;
+   font-size:50px ;
+   line-height: 0%;
+   vertical-align:text-bottom;
+  }
+
+ /* .footer-list span{
+   font-family:'Comic Neue', cursive;
+ } */
+
+
+
+ .footer-links {
+   width:150px;
+   font-size:20px ;
+   font-family:'Comic Neue', cursive;
+   font-weight: 900;
+   color:black;
+   text-shadow: none;
+   margin:0;
+   padding:20px 0 0 30px;
+ }
+
+ .footer a{
+   display: flex;
+   flex-direction:column;
+   text-decoration: none;
+   padding:0 0 0 30px;
+   color:black
+ }
+
+ .footer-contacts {
+   font-size:20px ;
+   font-family:'Comic Neue', cursive;
+   font-weight: 900;
+   color:black;
+   text-shadow: none;
+   margin: 0;
+   padding: 20px 0 0 25px;
+ }
+
+ .email {
+    padding: 0 0 0 25px ;
+  }
+
+  .number {
+    padding: 0 0 0 25px ;
+  }
+
+ .activities {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   width: 100%;
+   height: 2000px;
+   margin:25px 0 0 0;
+   text-align: center;
+ }
+
+ .camp {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   width:700px;
+   height:450px;
+
+ }
+ 
+ .camp-title {
+   font-family: 'Libre Bodoni', serif;
+   font-weight: 900;
+   color:rgb(240,96,34);
+   text-shadow: none;
+ }
+
+
+ .facilities{
+   padding-top: 200px;
+  }
+
+ .facility-name {
+   font-family:'Libre Bodoni', serif;
+   font-size: 50px;
+   color: rgb(240,96,34);
+   text-shadow: none;
+  }
+
+ .facility-img {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   width: 100%;
+   height: 1500px;
+   margin:25px 0 0 0;
+   text-align: center;
+  }
+
+ .facility {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+   width:700px;
+   height:400px;
+  /* border:5px solid black; */
+   background-color: rgb(222, 184, 135);
+   border-radius: 30px;
+   padding:20px;
+   margin:30px
+  }
+
+ .img-1{
+   background-image: url(images/f8.jpg);
+  }
+
+ .img-2 {
+   background-image: url(images/facility2a.jpg);
+  }
+
+ .img-3 {
+   background-image: url(images/facility6a.jpg);
+  }
+
+ .img-4 {
+   background-image: url(images/facility3.jpg);
+  }
+
+ .img-5 {
+   background-image: url(images/facility5.jpg);
+  }
+
+ .img-6 {
+   background-image: url(images/facility11a.jpeg);
+  }
+ 
+  .btn-camps :hover {
+      background-color: rgb(222, 184, 135);
+  }
+
+@media only screen and (max-width: 750px) {
+  .logo {
+    width: 150px;
+    height:150px ;
+   }
+
+  .card-title {
+     font-size: 30px;
+     margin: 0;
+  }
+
+  div span {
+    font-size: 25px;
+    margin: 0;
+    padding:0 150px 0 0;
+  }
+
+  .button {
+    margin: 0;
+    font-size: 10px;
+    width: 50px;
+
+  }
+
+  .nav { 
+   width: 100%;
+  }
+
+  .container1 {
+    display: block;
+    padding: 0;
+  }
+
+  
+  .container1-card {
+    height:fit-content;
+    width:fit-content;
+  }
+  
+  .container1-card-title {
+    font-size: 30px;
+  }
+
+  .container1-card p {
+    font-size: 15px;
+    padding:10px
+  }
+
+  .container2 {
+    margin:0;
+    box-shadow: none;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+  }
+
+  .main-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .Testimonial {
+    height: fit-content;
+    width: fit-content;
+    padding: 0;
+  }
+
+  .testimonial-title {
+    font-size: 30px;
+  }
+
+  .testimonial-a {
+    background: none;
+    height: fit-content;
+    width: fit-content;
+  }
+
+   .activities {
+    height: fit-content;
+  }
+
+  .camp {
+    padding-top: 20px;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .facility-img {
+    height: fit-content;
+  }
+
+  .facilities {
+    padding: 20px;
+  }
+
+}
