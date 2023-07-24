@@ -91,7 +91,7 @@
     background-color: burlywood;
     justify-content:space-between;
     align-items:left;
-    position:unset;
+    position:sticky;
     
   }
 
