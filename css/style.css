@@ -5,13 +5,21 @@
     box-sizing: border-box;
     }
 
-  .card-container {
-    background-image: url(images/yc2.jpg);
-    height:100vh;
-    background-position: center center ;
-    background-size: cover;
-    background-repeat: no-repeat;
-   }
+  .image {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;background-image: url(images/yc2.jpg);
+    }
+
+    .image-overlay {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 3;
+
+    }
     .logo {
     display: flex;
     background-image: url(images/new\ logo.png);
@@ -21,6 +29,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 400px;
+  
    }
 
     div span {
@@ -34,7 +43,10 @@
     font-size: xx-large;
     font-family:  'Comic Neue', cursive;
     text-shadow: 5px 5px 5px black;
+  
     }
+
+    
 
    .card-title {
     display: flex;
